@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_game_option"
+        android:icon="@drawable/new_game_image"
+        android:showAsAction="ifRoom"
+        android:title="@string/new_game_menu"/>
+    <item
+        android:id="@+id/ai_difficulty"
+        android:icon="@drawable/difficulty_level"
+        android:showAsAction="ifRoom"
+        android:title="@string/difficulty_menu"/>
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/quit_game_image"
+        android:showAsAction="ifRoom"
+        android:title="@string/quit_menu"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about_image"
+        android:showAsAction="ifRoom"
+        android:title="@string/about_menu"/>
+	<item
+        android:id="@+id/reset"
+        android:icon="@drawable/reset_score"
+        android:showAsAction="ifRoom"
+        android:title="@string/reset_scores"/>
+    
+</menu>
